@@ -17,6 +17,7 @@ var TakeTourComponent = (function () {
         this.TourService = TourService;
     }
     ;
+<<<<<<< HEAD
     TakeTourComponent.prototype.ngOnInit = function () {
         this.getTour();
     };
@@ -24,6 +25,12 @@ var TakeTourComponent = (function () {
         //this.tour = this.TourService.getDemoTour();
         //this.PanelService.getRandomPanel().then(panel => this.panel = panel)
         //this.heroService.getHeroes().then(heroes => this.heroes = heroes);
+=======
+    TakeTourComponent.prototype.onViewTour = function () {
+        this._router.navigate(['/view_tour']);
+        // note: this is sandbox version
+        // final version should pass a parameter to identify the tour
+>>>>>>> mn_dev
     };
     TakeTourComponent = __decorate([
         core_1.Component({

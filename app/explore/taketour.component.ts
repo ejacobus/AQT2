@@ -12,19 +12,27 @@ import { TourService } from '../services/tours.service';
 
 })
 
-export class TakeTourComponent implements OnInit{
+//export class TakeTourComponent implements OnInit{
+export class TakeTourComponent{
 
       tour: String;
-
+      
       constructor ( private _router: Router, private TourService: TourService){};
-
-      ngOnInit(): void {
-          this.getTour();
-      }
-
-      getTour(): void {
+      
+//Conflict with eva
+//      ngOnInit(): void {
+//          this.getTour();
+//      }
+//      getTour(): void {
           //this.tour = this.TourService.getDemoTour();
           //this.PanelService.getRandomPanel().then(panel => this.panel = panel)
           //this.heroService.getHeroes().then(heroes => this.heroes = heroes);
-      }
+//      }
+//=======
+    onViewTour(): void {
+        this._router.navigate(['/view_tour']);
+        // note: this is sandbox version
+        // final version should pass a parameter to identify the tour
+    }
+
 }

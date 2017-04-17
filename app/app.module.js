@@ -19,6 +19,7 @@ var start_component_1 = require('./start/start.component');
 var explore_module_1 = require('./explore/explore.module');
 var participate_module_1 = require('./participate/participate.module');
 var shared_module_1 = require('./shared/shared.module');
+var taketour_component_1 = require('./explore/taketour.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -31,7 +32,7 @@ var AppModule = (function () {
                     { path: 'start', component: start_component_1.StartComponent },
                     // { path: 'favorite', component: FavoriteComponent },
                     // { path: 'stitch', component: StitchComponent },
-                    // { path: 'tour', component: TourComponent },
+                    { path: 'tour', component: taketour_component_1.TakeTourComponent },
                     { path: '', redirectTo: 'home', pathMatch: 'full' },
                     { path: '**', redirectTo: 'home', pathMatch: 'full' }
                 ]),

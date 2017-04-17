@@ -11,7 +11,16 @@
 	margin-right: -20px;
 }
 
-#view_random-heading {
+.take_tour-menu {
+  font-size: 1.7em;
+  /*width: 100%;*/
+  line-height: 1.8em;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 1%;
+  padding-bottom: 1%; }
+
+#take_tour-heading {
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
@@ -30,8 +39,4 @@
   margin-left: -20px;
   /*margin-top: 10px;*/
   background-color: #F495B4;
-}
-
-.panel_img {
-
 }

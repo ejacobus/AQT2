@@ -24,6 +24,9 @@ var GlobalNav4Component = (function () {
     GlobalNav4Component.prototype.onBack = function () {
         this._location.back();
     };
+    GlobalNav4Component.prototype.onTour = function () {
+        this._router.navigate(['/tour']);
+    };
     GlobalNav4Component = __decorate([
         core_1.Component({
             selector: 'globalnav4',

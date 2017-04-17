@@ -1,0 +1,181 @@
+//2017-04-12: refactor this based upon Interface Diagram
+[{
+	"blockNum": "00054",
+	"panels": {
+		"panel1": {
+			"panelNum": "00054-1",
+			"blockX1": 0,
+			"blockY1": 0,
+			"blockX2": 2,
+			"blockY2": 2,
+			"names": {
+				"nameId": 1,
+				"name1": "Hank Sharp",
+				"dob": "1942-12-03",
+				"dod": "1986-04-30",
+				"city": "Houston"},
+				"otherLocs": {
+					"otherLoc1": "WV",
+					"otherLoc2": "Panama",
+					"otherLoc3": "San Francisco",
+					"otherLoc4": "CA"
+				}
+			},
+			"dateRecd": "1987-09-08",
+			"makers": {
+				"maker1":"Steve H. Slagle"
+		},
+		"panel2": {
+			"panelNumber": "00054-2",
+			"coords": {
+				"x1": 0,
+				"y1": 1,
+				"x2": 2,
+				"y2": 2
+			},
+			"names": {
+				"name1": "David Maynard"
+			},
+			"dateRecd": "1987-09-08",
+			"dob": "unknown",
+			"dod": "unknown",
+			"city": "San Francisco",
+			"otherLocs": {
+				"otherLoc1": "CA"
+			},
+			"makers": {
+				"maker1": "David Petras"
+			}
+		},
+		"panel3": {
+			"panelNumber": "00054-3",
+			"coords": {
+				"x1": 0,
+				"y1": 2,
+				"x2": 2,
+				"y2": 3
+			},
+			"names": {
+				"name1": "Rock Hudson"
+			},
+			"dateRecd": "1987-08-21",
+			"dob": "unknown",
+			"dod": "unknown",
+			"city": "Hollywood",
+			"otherLocs": {
+				"otherLoc1": "CA"
+			},
+			"makers": {
+				"maker1": "Warren Caton"
+			}
+		},
+		"panel4": {
+			"panelNumber": "00054-4",
+			"coords": {
+				"x1": 0,
+				"y1": 3,
+				"x2": 2,
+				"y2": 4
+			},
+			"names": {
+				"name1": "Philip Dimitri Galas"
+			},
+			"dateRecd": "1987-09-08",
+			"dob": "unknown",
+			"dod": "unknown",
+			"city": "San Francisco",
+			"otherLocs": {
+				"otherLoc1": "CA"
+			},
+			"makers": {
+				"maker1": "Steve Murray"
+			}
+		},
+		"panel5": {
+			"panelNumber": "00054-5",
+			"coords": {
+				"x1": 2,
+				"y1": 0,
+				"x2": 4,
+				"y2": 1
+			},
+			"names": {
+				"name1": "Milton Criger"
+			},
+			"dateRecd": "1987-08-25",
+			"dob": "unknown",
+			"dod": "unknown",
+			"city": "San Francisco",
+			"otherLocs": {
+				"otherLoc1": "CA"
+			},
+			"makers": {
+				"maker1": "Robert Rivera"
+			}
+		},
+		"panel6": {
+			"panelNumber": "00054-6",
+			"coords": {
+				"x1": 2,
+				"y1": 1,
+				"x2": 4,
+				"y2": 2
+			},
+			"names": {
+				"name1": "Larry Gurel"
+			},
+			"dateRecd": "1987-09-04",
+			"dob": "unknown",
+			"dod": "unknown",
+			"city": "Washington DC",
+			"otherLocs": {
+				"otherLoc1": "DC"
+			},
+			"makers": {
+				"maker1": "unknown"
+			}
+		},
+
+		"panel7": {
+			"panelNumber": "00054-7",
+			"coords": {
+				"x1": 2,
+				"y1": 2,
+				"x2": 4,
+				"y2": 3
+			},
+			"names": {
+				"name1": "Jon Sims"
+			},
+			"dateRecd": "1987-08-21",
+			"dob": "unknown",
+			"dod": "unknown",
+			"makers": {
+				"maker1": "Zohn Artman"
+			}
+		},
+		"panel8": {
+			"panelNumber": "00054-8",
+			"coords": {
+				"x1": 2,
+				"y1": 3,
+				"x2": 4,
+				"y2": 4
+			},
+			"names": {
+				"name1": "Gray Vasse"
+			},
+			"dateRecd": "1987-09-05",
+			"dob": "unknown",
+			"dod": "unknown",
+			"city": "San Francisco",
+			"otherLocs": {
+				"otherLoc1": "CA"
+			},
+			"makers": {
+				"maker1": "Greg Stone"
+			}
+		},
+		"imageUrl": "00054.jpg"
+	}
+}]

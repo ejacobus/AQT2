@@ -1,0 +1,22 @@
+#background_2 {
+  /*view random page*/
+    background-image: url(/app/assets/images/backgrounds/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 0%;
+    background-attachment: fixed;
+    min-height: 800px;
+    text-align: center;
+    overflow: hidden;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+#view_tour-heading {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 3em;
+  line-height: 1.2em;
+  margin-top: 2%;
+  /*margin-left: -10%;*/ }

@@ -9,7 +9,9 @@ import { StartComponent } from './start/start.component';
 // import { GlobalNavComponent } from './shared/globalnav.component';
 import { ExploreModule } from './explore/explore.module';
 import { ParticipateModule } from './participate/participate.module';
-import { SharedModule } from './shared/shared.module'
+import { SharedModule } from './shared/shared.module';
+
+import { TakeTourComponent } from './explore/taketour.component'
 
 @NgModule({
   imports: [
@@ -19,7 +21,7 @@ import { SharedModule } from './shared/shared.module'
       { path: 'start', component: StartComponent },
       // { path: 'favorite', component: FavoriteComponent },
       // { path: 'stitch', component: StitchComponent },
-      // { path: 'tour', component: TourComponent },
+      { path: 'tour', component: TakeTourComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full'},
       { path: '**', redirectTo: 'home', pathMatch: 'full'}
     ]),

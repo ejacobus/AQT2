@@ -18,5 +18,8 @@ export class GlobalNav4Component {
     onBack(): void {
         this._location.back();
     }
+    onTour(): void {
+        this._router.navigate(['/tour']);
+    }
     
 }        
